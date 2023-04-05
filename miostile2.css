@@ -1,0 +1,36 @@
+@import url("font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700");
+
+body{background-color:#dddddd; font:12px "Open Sans",sans-serif; margin-left:0px; margin-top:20px}
+a:link{color:#4882b4;}      /* unvisited link */
+a:visited{color:#4882b4;}  /* visited link */
+a:hover{color:#4882b4#;}  /* mouse over link */
+a:active{color:#4882b4;}  /* selected link */
+a.mylink{text-decoration:none; color:#eeeeee; font:bold 15px "Open Sans",sans-serif;}
+.tittab{text-align:right; vertical-align:bottom; color: #4882b4; font:45px Georgia,serif; padding:15px}
+.bwvis{background-color:#aaaaaa; color:black; font:13px helvetica,sans-serif;}
+.bw{background-color:#ffffff; color:#ffffff;}
+.actbut{text-decoration:none; color:#4882b4; font:bold 15px "Open Sans",serif; 
+	background-color:#ffffff; width:156px;
+	border-top-right-radius: 8px; border-top-left-radius: 8px;
+        border:2px solid #4882b4; border-bottom:0px}
+.nabut{width:156px; border-bottom: 2px solid #4882b4; 
+	background-color:#6688aa;
+	border-top-right-radius: 8px; border-top-left-radius: 8px;}
+.tabborder{background-color:#dddddd; width:2px; font:1px;}
+.tabsep{border-bottom:2px solid #4882b4; width:1px;}
+.maintab{text-align:justify; padding:15px; background-color:#ffffff;
+	 border:2px solid #4882b4; border-top:0px;
+	 border-bottom-right-radius:8px; border-bottom-left-radius:8px;}
+.bottomtab{border:0px; padding:10px; padding-top:2px; 
+	   padding-bottom:2px; background-color:#dddddd;}
+.nobborder{border-bottom:0px; border-radius:0px; padding-bottom:0px}
+
+.blinking{
+    animation:blinkingText 1.5s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: #ff0000;    }
+    50%{    color: transparent; }
+    100%{   color: #ff0000;    }
+}
